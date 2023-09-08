@@ -1,0 +1,189 @@
+
+
+#div_middle>ul{
+width:100%;height:100%;background-color:#29221D;
+overflow:hidden;
+scrollbar-face-color:#464646;/* 滚动条滑块颜色 */
+scrollbar-track-color:#29221D;/* 滚动条滑槽颜色  */
+scrollbar-arrow-color:white;/* 滚动条箭头颜色  */
+}
+
+
+#div_middle>ul>li{
+width:100%;height:40px;
+box-sizing:border-box;
+padding-left:50px;/*  左边预留软件图标所需的位置大小 */
+line-height:40px;color:white;font-family:"Calibri","微软雅黑";
+text-transform:capitalize;/* 英文单词首字母大写  */
+margin-bottom:2px;
+text-overflow:ellipsis;overflow:hidden;white-space:nowrap;/* 设置文字超过li宽度时用省略号替代  */
+}
+
+
+
+
+/* 软件图标  */
+#div_middle>ul>li:nth-child(3){
+	background-image:url(../img/lr.png);
+	background-size:35px;
+	background-repeat:no-repeat;
+	background-position:10px center;
+}
+
+#div_middle>ul>li:nth-child(4){
+	background-image:url(../img/ps.png);
+	background-size:35px;
+	background-repeat:no-repeat;
+	background-position:10px center;
+}
+
+#div_middle>ul>li:nth-child(5){
+	background-image:url(../img/avast.png);
+	background-size:35px;
+	background-repeat:no-repeat;
+	background-position:10px center;
+}
+
+#div_middle>ul>li:nth-child(6){
+	background-image:url(../img/AIM.png);
+	background-size:35px;
+	background-repeat:no-repeat;
+	background-position:10px center;
+}
+
+#div_middle>ul>li:nth-child(7){
+	background-image:url(../img/camtasia.png);
+	background-size:35px;
+	background-repeat:no-repeat;
+	background-position:10px center;
+}
+
+#div_middle>ul>li:nth-child(8){
+	background-image:url(../img/chrome.png);
+	background-size:35px;
+	background-repeat:no-repeat;
+	background-position:10px center;
+}
+
+#div_middle>ul>li:nth-child(9){
+	background-image:url(../img/emule.png);
+	background-size:35px;
+	background-repeat:no-repeat;
+	background-position:10px center;
+}
+
+#div_middle>ul>li:nth-child(10){
+	background-image:url(../img/exposure.png);
+	background-size:35px;
+	background-repeat:no-repeat;
+	background-position:10px center;
+}
+
+#div_middle>ul>li:nth-child(12){
+	background-image:url(../img/firefox.png);
+	background-size:35px;
+	background-repeat:no-repeat;
+	background-position:10px center;
+}
+
+#div_middle>ul>li:nth-child(13){
+	background-image:url(../img/ie.png);
+	background-size:35px;
+	background-repeat:no-repeat;
+	background-position:10px center;
+}
+
+#div_middle>ul>li:nth-child(15){
+	background-image:url(../img/kugoo.png);
+	background-size:35px;
+	background-repeat:no-repeat;
+	background-position:10px center;
+}
+
+
+#div_middle>ul>li:nth-child(17){
+	background-image:url(../img/word.png);
+	background-size:35px;
+	background-repeat:no-repeat;
+	background-position:10px center;
+}
+
+#div_middle>ul>li:nth-child(18){
+	background-image:url(../img/excel.png);
+	background-size:35px;
+	background-repeat:no-repeat;
+	background-position:10px center;
+}
+
+#div_middle>ul>li:nth-child(19){
+	background-image:url(../img/powerpoint.png);
+	background-size:35px;
+	background-repeat:no-repeat;
+	background-position:10px center;
+}
+
+#div_middle>ul>li:nth-child(20){
+	background-image:url(../img/access.png);
+	background-size:35px;
+	background-repeat:no-repeat;
+	background-position:10px center;
+}
+
+#div_middle>ul>li:nth-child(21){
+	background-image:url(../img/outlook.png);
+	background-size:35px;
+	background-repeat:no-repeat;
+	background-position:10px center;
+}
+
+#div_middle>ul>li:nth-child(22){
+	background-image:url(../img/onedrive.png);
+	background-size:35px;
+	background-repeat:no-repeat;
+	background-position:10px center;
+}
+
+#div_middle>ul>li:nth-child(23){
+	background-image:url(../img/picpick.png);
+	background-size:35px;
+	background-repeat:no-repeat;
+	background-position:10px center;
+}
+
+#div_middle>ul>li:nth-child(24){
+	background-image:url(../img/qq.png);
+	background-size:35px;
+	background-repeat:no-repeat;
+	background-position:10px center;
+}
+
+#div_middle>ul>li:nth-child(25){
+	background-image:url(../img/skype.png);
+	background-size:35px;
+	background-repeat:no-repeat;
+	background-position:10px center;
+}
+
+#div_middle>ul>li:nth-child(27){
+	background-image:url(../img/xmind.png);
+	background-size:35px;
+	background-repeat:no-repeat;
+	background-position:10px center;
+}
+
+#div_middle>ul>li:nth-child(28){
+	background-image:url(../img/vm.png);
+	background-size:35px;
+	background-repeat:no-repeat;
+	background-position:10px center;
+}
+
+
+
+
+#div_middle>ul>li:first-child{text-indent:-40px;margin-top:2px;}
+#div_middle>ul>.li_header{text-indent:-40px;font-size:20px;}
+
+#div_middle>ul:hover{overflow:auto;overflow-x:hidden;}
+
+#div_middle>ul>li:hover{background-color:#3E3830;}

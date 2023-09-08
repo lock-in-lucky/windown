@@ -1,0 +1,67 @@
+
+#div_left>ul>li{
+padding-left:60px;
+overflow:hidden;
+line-height:50px;
+font-weight:bold;color:white;
+}
+
+
+
+#div_left>label{
+padding-left:60px;
+width:0px;overflow:hidden;
+line-height:50px;
+;font-weight:bold;color:white;
+background-image:url(../img/stx-white.png);
+background-size:30px;
+background-repeat:no-repeat;
+background-position:15px 10px;
+transition:width 0.3s;
+}
+
+#div_left>label:hover{background-color:#353535;}
+
+#div_left>ul>li:nth-child(1){
+background-image:url(../img/user-white.png);
+background-size:30px;
+background-repeat:no-repeat;
+background-position:15px 10px;
+}
+
+
+
+
+
+
+#div_left>ul>li:nth-child(2){
+background-image:url(../img/setting-white.png);
+background-size:30px;
+background-repeat:no-repeat;
+background-position:15px 10px;
+}
+
+#div_left>ul>li:nth-child(3){
+background-image:url(../img/power-white.png);
+background-size:30px;
+background-repeat:no-repeat;
+background-position:15px 10px;
+}
+
+#content>label{
+background-image:url(../img/windows-white.png);
+background-size:20px;
+background-repeat:no-repeat;
+background-position:center;
+}
+
+#content>label:hover{
+	background-color:red;
+	
+}
+
+#content>input:checked+label{background-color:red;}
+
+#div_left>ul>li:hover{
+background-color:#353535;
+}

@@ -1,0 +1,35 @@
+#div_right>ul{
+width:100%;height:100%;background-color:#202833;
+padding-top:40px;box-sizing:border-box;
+scrollbar-face-color:#464646;/* 滚动条滑块颜色 */
+scrollbar-track-color:#29221D;/* 滚动条滑槽颜色  */
+scrollbar-arrow-color:white;/* 滚动条箭头颜色  */
+}
+
+#div_right>ul>li{
+	width:110px;height:110px;
+	box-sizing:border-box;
+	float:left;list-style-type:none;
+	margin:2px;background-color:#0078D7;
+}
+
+figure{width:100%;height:100%;position:relative;}
+figure>img{
+max-width:40%;max-height:40%;
+position:absolute;top:20%;left:0px;right:0px;margin:auto;
+}
+figcaption{
+width:100%;max-height:30%;/* 设置标题文字的高度为父标签的30%  */
+box-sizing:border-box;padding-left:5px;
+position:absolute;bottom:3px;left:0px;/* 设置标题文字位于父标签底部  */
+text-align:left;
+text-transform:capitalize;
+font-family:"Calibri","微软雅黑";color:white;
+line-height:15px;
+
+}
+
+
+
+#div_right>ul:hover{overflow:auto;}
+#div_right>ul>li:hover{outline:2px solid white;}
